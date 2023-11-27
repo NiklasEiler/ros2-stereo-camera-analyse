@@ -24,7 +24,7 @@ class ImageSubscriber:
         try:
             # Convert ROS Image message to OpenCV format
             cv_image = self.bridge.imgmsg_to_cv2(msg, "mono8")
-            self.node.get_logger().info('Image2 recieved')
+            self.node.get_logger().info('Image4 recieved')
             # Add your image processing code here
 
             # Display the image (for example)

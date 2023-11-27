@@ -12,6 +12,10 @@
   <depend>cv_bridge</depend>
   <depend>sensor_msgs.msg</depend>
   <depend>std_msgs.msg</depend>
+  <depend>sensor_msgs.point_cloud2</depend>
+  <depend>numpy</depend>
+  <depend>matplotlib.pyplot</depend>
+  <depend>mpl_toolkits.mplot3d</depend> 
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

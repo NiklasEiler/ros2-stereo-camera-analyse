@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             "image_node=my_image_processing.my_node:main"
+            #"point_cloud_node=my_image_processing.my_point_cloud:main"
         ],
     },
 )

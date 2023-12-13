@@ -1,0 +1,25 @@
+[4.551s] Invoking command in '/home/niklas/ros2-stereo-camera-analyse/my_image_processing': PYTHONPATH=/home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/prefix_override:/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_image_processing build --build-base /home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/build install --record /home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/install.log --single-version-externally-managed
+[5.947s] running egg_info
+[5.949s] writing ../build/my_image_processing/my_image_processing.egg-info/PKG-INFO
+[5.950s] writing dependency_links to ../build/my_image_processing/my_image_processing.egg-info/dependency_links.txt
+[5.951s] writing entry points to ../build/my_image_processing/my_image_processing.egg-info/entry_points.txt
+[5.952s] writing requirements to ../build/my_image_processing/my_image_processing.egg-info/requires.txt
+[5.953s] writing top-level names to ../build/my_image_processing/my_image_processing.egg-info/top_level.txt
+[5.961s] reading manifest file '../build/my_image_processing/my_image_processing.egg-info/SOURCES.txt'
+[5.966s] writing manifest file '../build/my_image_processing/my_image_processing.egg-info/SOURCES.txt'
+[5.967s] running build
+[5.967s] running build_py
+[5.968s] copying my_image_processing/my_node.py -> /home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/build/lib/my_image_processing
+[5.980s] running install
+[5.982s] running install_lib
+[5.983s] copying /home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/build/lib/my_image_processing/my_node.py -> /home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/python3.10/site-packages/my_image_processing
+[5.984s] byte-compiling /home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/python3.10/site-packages/my_image_processing/my_node.py to my_node.cpython-310.pyc
+[5.989s] running install_data
+[5.992s] copying package.xml -> /home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/share/my_image_processing
+[5.993s] running install_egg_info
+[6.001s] removing '/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/python3.10/site-packages/my_image_processing-0.0.0-py3.10.egg-info' (and everything under it)
+[6.003s] Copying ../build/my_image_processing/my_image_processing.egg-info to /home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/python3.10/site-packages/my_image_processing-0.0.0-py3.10.egg-info
+[6.013s] running install_scripts
+[6.092s] Installing image_node script to /home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/my_image_processing
+[6.094s] writing list of installed files to '/home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/install.log'
+[6.235s] Invoked command in '/home/niklas/ros2-stereo-camera-analyse/my_image_processing' returned '0': PYTHONPATH=/home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/prefix_override:/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_image_processing build --build-base /home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/build install --record /home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/install.log --single-version-externally-managed

@@ -1,0 +1,158 @@
+[0.000000] (-) TimerEvent: {}
+[0.007464] (my_image_processing) JobQueued: {'identifier': 'my_image_processing', 'dependencies': OrderedDict()}
+[0.009131] (my_image_processing) JobStarted: {'identifier': 'my_image_processing'}
+[0.099793] (-) TimerEvent: {}
+[0.204327] (-) TimerEvent: {}
+[0.306646] (-) TimerEvent: {}
+[0.408985] (-) TimerEvent: {}
+[0.510375] (-) TimerEvent: {}
+[0.617659] (-) TimerEvent: {}
+[0.721162] (-) TimerEvent: {}
+[0.827962] (-) TimerEvent: {}
+[0.930828] (-) TimerEvent: {}
+[1.034010] (-) TimerEvent: {}
+[1.135953] (-) TimerEvent: {}
+[1.237588] (-) TimerEvent: {}
+[1.339397] (-) TimerEvent: {}
+[1.441305] (-) TimerEvent: {}
+[1.543432] (-) TimerEvent: {}
+[1.645156] (-) TimerEvent: {}
+[1.746902] (-) TimerEvent: {}
+[1.849141] (-) TimerEvent: {}
+[1.951187] (-) TimerEvent: {}
+[2.052462] (-) TimerEvent: {}
+[2.153586] (-) TimerEvent: {}
+[2.254749] (-) TimerEvent: {}
+[2.356104] (-) TimerEvent: {}
+[2.457150] (-) TimerEvent: {}
+[2.558668] (-) TimerEvent: {}
+[2.660692] (-) TimerEvent: {}
+[2.761992] (-) TimerEvent: {}
+[2.863840] (-) TimerEvent: {}
+[2.966532] (-) TimerEvent: {}
+[3.068745] (-) TimerEvent: {}
+[3.170152] (-) TimerEvent: {}
+[3.271389] (-) TimerEvent: {}
+[3.375902] (-) TimerEvent: {}
+[3.476934] (-) TimerEvent: {}
+[3.577629] (-) TimerEvent: {}
+[3.678318] (-) TimerEvent: {}
+[3.779044] (-) TimerEvent: {}
+[3.879759] (-) TimerEvent: {}
+[3.980475] (-) TimerEvent: {}
+[4.081269] (-) TimerEvent: {}
+[4.182266] (-) TimerEvent: {}
+[4.283592] (-) TimerEvent: {}
+[4.384771] (-) TimerEvent: {}
+[4.485622] (-) TimerEvent: {}
+[4.586325] (-) TimerEvent: {}
+[4.689220] (-) TimerEvent: {}
+[4.798087] (-) TimerEvent: {}
+[4.900122] (-) TimerEvent: {}
+[5.005984] (-) TimerEvent: {}
+[5.109560] (-) TimerEvent: {}
+[5.211243] (-) TimerEvent: {}
+[5.312957] (-) TimerEvent: {}
+[5.414407] (-) TimerEvent: {}
+[5.515294] (-) TimerEvent: {}
+[5.616217] (-) TimerEvent: {}
+[5.717015] (-) TimerEvent: {}
+[5.817873] (-) TimerEvent: {}
+[5.919392] (-) TimerEvent: {}
+[6.021179] (-) TimerEvent: {}
+[6.122010] (-) TimerEvent: {}
+[6.222811] (-) TimerEvent: {}
+[6.323711] (-) TimerEvent: {}
+[6.424505] (-) TimerEvent: {}
+[6.525929] (-) TimerEvent: {}
+[6.627904] (-) TimerEvent: {}
+[6.728646] (-) TimerEvent: {}
+[6.829304] (-) TimerEvent: {}
+[6.930148] (-) TimerEvent: {}
+[7.031417] (-) TimerEvent: {}
+[7.132559] (-) TimerEvent: {}
+[7.233347] (-) TimerEvent: {}
+[7.334181] (-) TimerEvent: {}
+[7.435465] (-) TimerEvent: {}
+[7.536903] (-) TimerEvent: {}
+[7.638073] (-) TimerEvent: {}
+[7.739024] (-) TimerEvent: {}
+[7.840239] (-) TimerEvent: {}
+[7.941497] (-) TimerEvent: {}
+[8.042698] (-) TimerEvent: {}
+[8.144373] (-) TimerEvent: {}
+[8.245236] (-) TimerEvent: {}
+[8.346777] (-) TimerEvent: {}
+[8.451786] (-) TimerEvent: {}
+[8.553052] (-) TimerEvent: {}
+[8.654239] (-) TimerEvent: {}
+[8.757364] (-) TimerEvent: {}
+[8.858984] (-) TimerEvent: {}
+[8.960212] (-) TimerEvent: {}
+[9.061529] (-) TimerEvent: {}
+[9.163099] (-) TimerEvent: {}
+[9.264890] (-) TimerEvent: {}
+[9.301245] (my_image_processing) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/my_image_processing', 'build', '--build-base', '/home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/build', 'install', '--record', '/home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/install.log', '--single-version-externally-managed'], 'cwd': '/home/niklas/ros2-stereo-camera-analyse/my_image_processing', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'no_proxy': 'localhost,127.0.0.0/8,::1', 'USER': 'niklas', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/niklas', 'OLDPWD': '/home/niklas', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': 'localhost,127.0.0.0/8,::1', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '2682', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/niklas/ros2-stereo-camera-analyse/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'niklas', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'niklas', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/niklas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/niklas-desktop:@/tmp/.ICE-unix/1899,unix/niklas-desktop:/tmp/.ICE-unix/1899', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/cc93f59b_3ff4_4124_b564_01a8730d33f9', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.YC7LF2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/niklas/ros2-stereo-camera-analyse/build/my_image_processing', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/prefix_override:/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/python3.10/site-packages:/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[9.365195] (-) TimerEvent: {}
+[9.467401] (-) TimerEvent: {}
+[9.570288] (-) TimerEvent: {}
+[9.671342] (-) TimerEvent: {}
+[9.772620] (-) TimerEvent: {}
+[9.873672] (-) TimerEvent: {}
+[9.974813] (-) TimerEvent: {}
+[10.075702] (-) TimerEvent: {}
+[10.176443] (-) TimerEvent: {}
+[10.277141] (-) TimerEvent: {}
+[10.378206] (-) TimerEvent: {}
+[10.479458] (-) TimerEvent: {}
+[10.583196] (-) TimerEvent: {}
+[10.684283] (-) TimerEvent: {}
+[10.785451] (-) TimerEvent: {}
+[10.886445] (-) TimerEvent: {}
+[10.988558] (-) TimerEvent: {}
+[11.095233] (-) TimerEvent: {}
+[11.197559] (-) TimerEvent: {}
+[11.298694] (-) TimerEvent: {}
+[11.399486] (-) TimerEvent: {}
+[11.500628] (-) TimerEvent: {}
+[11.601761] (-) TimerEvent: {}
+[11.702807] (-) TimerEvent: {}
+[11.804321] (-) TimerEvent: {}
+[11.905180] (-) TimerEvent: {}
+[12.006313] (-) TimerEvent: {}
+[12.109636] (-) TimerEvent: {}
+[12.212579] (-) TimerEvent: {}
+[12.253167] (my_image_processing) StdoutLine: {'line': b'running egg_info\n'}
+[12.257820] (my_image_processing) StdoutLine: {'line': b'writing ../build/my_image_processing/my_image_processing.egg-info/PKG-INFO\n'}
+[12.261568] (my_image_processing) StdoutLine: {'line': b'writing dependency_links to ../build/my_image_processing/my_image_processing.egg-info/dependency_links.txt\n'}
+[12.263940] (my_image_processing) StdoutLine: {'line': b'writing entry points to ../build/my_image_processing/my_image_processing.egg-info/entry_points.txt\n'}
+[12.265958] (my_image_processing) StdoutLine: {'line': b'writing requirements to ../build/my_image_processing/my_image_processing.egg-info/requires.txt\n'}
+[12.267856] (my_image_processing) StdoutLine: {'line': b'writing top-level names to ../build/my_image_processing/my_image_processing.egg-info/top_level.txt\n'}
+[12.293187] (my_image_processing) StdoutLine: {'line': b"reading manifest file '../build/my_image_processing/my_image_processing.egg-info/SOURCES.txt'\n"}
+[12.305496] (my_image_processing) StdoutLine: {'line': b"writing manifest file '../build/my_image_processing/my_image_processing.egg-info/SOURCES.txt'\n"}
+[12.306586] (my_image_processing) StdoutLine: {'line': b'running build\n'}
+[12.308777] (my_image_processing) StdoutLine: {'line': b'running build_py\n'}
+[12.312796] (-) TimerEvent: {}
+[12.314566] (my_image_processing) StdoutLine: {'line': b'running install\n'}
+[12.316302] (my_image_processing) StdoutLine: {'line': b'running install_lib\n'}
+[12.334228] (my_image_processing) StdoutLine: {'line': b'running install_data\n'}
+[12.339350] (my_image_processing) StdoutLine: {'line': b'running install_egg_info\n'}
+[12.348339] (my_image_processing) StdoutLine: {'line': b"removing '/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/python3.10/site-packages/my_image_processing-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[12.350748] (my_image_processing) StdoutLine: {'line': b'Copying ../build/my_image_processing/my_image_processing.egg-info to /home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/python3.10/site-packages/my_image_processing-0.0.0-py3.10.egg-info\n'}
+[12.360769] (my_image_processing) StdoutLine: {'line': b'running install_scripts\n'}
+[12.413239] (-) TimerEvent: {}
+[12.490577] (my_image_processing) StdoutLine: {'line': b'Installing image_node script to /home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/my_image_processing\n'}
+[12.497546] (my_image_processing) StdoutLine: {'line': b"writing list of installed files to '/home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/install.log'\n"}
+[12.514888] (-) TimerEvent: {}
+[12.618527] (-) TimerEvent: {}
+[12.726269] (-) TimerEvent: {}
+[12.778613] (my_image_processing) CommandEnded: {'returncode': 0}
+[12.826558] (-) TimerEvent: {}
+[12.931411] (-) TimerEvent: {}
+[13.032972] (-) TimerEvent: {}
+[13.135740] (-) TimerEvent: {}
+[13.239158] (-) TimerEvent: {}
+[13.340084] (-) TimerEvent: {}
+[13.456537] (-) TimerEvent: {}
+[13.485919] (my_image_processing) JobEnded: {'identifier': 'my_image_processing', 'rc': 0}
+[13.489466] (-) EventReactorShutdown: {}

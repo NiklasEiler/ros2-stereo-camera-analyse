@@ -14,6 +14,10 @@
   <depend>std_msgs.msg</depend>
   <depend>sensor_msgs.point_cloud2</depend>
   <depend>numpy</depend>
+  <depend>pandas</depend>
+  <depend>bildverarbeitung</depend>
+  <depend>keyboard</depend>
+  <depend>open3d</depend>
   <depend>matplotlib.pyplot</depend>
   <depend>mpl_toolkits.mplot3d</depend> 
 

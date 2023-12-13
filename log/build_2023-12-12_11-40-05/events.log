@@ -1,0 +1,96 @@
+[0.000000] (-) TimerEvent: {}
+[0.001639] (my_image_processing) JobQueued: {'identifier': 'my_image_processing', 'dependencies': OrderedDict()}
+[0.002262] (my_image_processing) JobStarted: {'identifier': 'my_image_processing'}
+[0.099164] (-) TimerEvent: {}
+[0.200508] (-) TimerEvent: {}
+[0.301751] (-) TimerEvent: {}
+[0.406821] (-) TimerEvent: {}
+[0.508045] (-) TimerEvent: {}
+[0.609902] (-) TimerEvent: {}
+[0.710801] (-) TimerEvent: {}
+[0.811735] (-) TimerEvent: {}
+[0.912430] (-) TimerEvent: {}
+[1.013121] (-) TimerEvent: {}
+[1.113807] (-) TimerEvent: {}
+[1.214527] (-) TimerEvent: {}
+[1.315188] (-) TimerEvent: {}
+[1.415864] (-) TimerEvent: {}
+[1.516533] (-) TimerEvent: {}
+[1.617221] (-) TimerEvent: {}
+[1.717945] (-) TimerEvent: {}
+[1.818662] (-) TimerEvent: {}
+[1.919538] (-) TimerEvent: {}
+[2.020661] (-) TimerEvent: {}
+[2.121333] (-) TimerEvent: {}
+[2.222276] (-) TimerEvent: {}
+[2.323375] (-) TimerEvent: {}
+[2.424506] (-) TimerEvent: {}
+[2.525288] (-) TimerEvent: {}
+[2.626080] (-) TimerEvent: {}
+[2.727057] (-) TimerEvent: {}
+[2.828127] (-) TimerEvent: {}
+[2.929072] (-) TimerEvent: {}
+[3.029840] (-) TimerEvent: {}
+[3.130532] (-) TimerEvent: {}
+[3.231204] (-) TimerEvent: {}
+[3.331900] (-) TimerEvent: {}
+[3.432568] (-) TimerEvent: {}
+[3.533288] (-) TimerEvent: {}
+[3.633962] (-) TimerEvent: {}
+[3.734640] (-) TimerEvent: {}
+[3.835432] (-) TimerEvent: {}
+[3.936124] (-) TimerEvent: {}
+[4.036822] (-) TimerEvent: {}
+[4.137496] (-) TimerEvent: {}
+[4.238545] (-) TimerEvent: {}
+[4.340547] (-) TimerEvent: {}
+[4.391725] (my_image_processing) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../build/my_image_processing', 'build', '--build-base', '/home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/build', 'install', '--record', '/home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/install.log', '--single-version-externally-managed'], 'cwd': '/home/niklas/ros2-stereo-camera-analyse/my_image_processing', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'no_proxy': 'localhost,127.0.0.0/8,::1', 'USER': 'niklas', 'LC_TIME': 'de_DE.UTF-8', 'SSH_AGENT_PID': '1775', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/niklas', 'OLDPWD': '/home/niklas', 'NO_PROXY': 'localhost,127.0.0.0/8,::1', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '2541', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/niklas/ros2-stereo-camera-analyse/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'niklas', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/niklas-desktop:@/tmp/.ICE-unix/1898,unix/niklas-desktop:/tmp/.ICE-unix/1898', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f3bf2827_dcc5_48bf_a244_80de91d38bce', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':10.0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing:/opt/ros/humble', 'UID': '1000', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/niklas/ros2-stereo-camera-analyse/build/my_image_processing', 'LC_ALL': 'en_US.UTF-8', 'CLUTTER_IM_MODULE': 'ibus', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share/:/usr/share/', 'PYTHONPATH': '/home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/prefix_override:/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/python3.10/site-packages:/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[4.440682] (-) TimerEvent: {}
+[4.541762] (-) TimerEvent: {}
+[4.642561] (-) TimerEvent: {}
+[4.743324] (-) TimerEvent: {}
+[4.844013] (-) TimerEvent: {}
+[4.944672] (-) TimerEvent: {}
+[5.045396] (-) TimerEvent: {}
+[5.146081] (-) TimerEvent: {}
+[5.246741] (-) TimerEvent: {}
+[5.347404] (-) TimerEvent: {}
+[5.448074] (-) TimerEvent: {}
+[5.548770] (-) TimerEvent: {}
+[5.649513] (-) TimerEvent: {}
+[5.750280] (-) TimerEvent: {}
+[5.795028] (my_image_processing) StdoutLine: {'line': b'running egg_info\n'}
+[5.797856] (my_image_processing) StdoutLine: {'line': b'writing ../build/my_image_processing/my_image_processing.egg-info/PKG-INFO\n'}
+[5.799909] (my_image_processing) StdoutLine: {'line': b'writing dependency_links to ../build/my_image_processing/my_image_processing.egg-info/dependency_links.txt\n'}
+[5.800930] (my_image_processing) StdoutLine: {'line': b'writing entry points to ../build/my_image_processing/my_image_processing.egg-info/entry_points.txt\n'}
+[5.801952] (my_image_processing) StdoutLine: {'line': b'writing requirements to ../build/my_image_processing/my_image_processing.egg-info/requires.txt\n'}
+[5.802727] (my_image_processing) StdoutLine: {'line': b'writing top-level names to ../build/my_image_processing/my_image_processing.egg-info/top_level.txt\n'}
+[5.812641] (my_image_processing) StdoutLine: {'line': b"reading manifest file '../build/my_image_processing/my_image_processing.egg-info/SOURCES.txt'\n"}
+[5.816812] (my_image_processing) StdoutLine: {'line': b"writing manifest file '../build/my_image_processing/my_image_processing.egg-info/SOURCES.txt'\n"}
+[5.817513] (my_image_processing) StdoutLine: {'line': b'running build\n'}
+[5.818005] (my_image_processing) StdoutLine: {'line': b'running build_py\n'}
+[5.818715] (my_image_processing) StdoutLine: {'line': b'copying my_image_processing/my_node.py -> /home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/build/lib/my_image_processing\n'}
+[5.820367] (my_image_processing) StdoutLine: {'line': b'copying my_image_processing/visual_point_cloud.py -> /home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/build/lib/my_image_processing\n'}
+[5.822181] (my_image_processing) StdoutLine: {'line': b'running install\n'}
+[5.823453] (my_image_processing) StdoutLine: {'line': b'running install_lib\n'}
+[5.827090] (my_image_processing) StdoutLine: {'line': b'copying /home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/build/lib/my_image_processing/my_node.py -> /home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/python3.10/site-packages/my_image_processing\n'}
+[5.828778] (my_image_processing) StdoutLine: {'line': b'copying /home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/build/lib/my_image_processing/visual_point_cloud.py -> /home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/python3.10/site-packages/my_image_processing\n'}
+[5.831823] (my_image_processing) StdoutLine: {'line': b'byte-compiling /home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/python3.10/site-packages/my_image_processing/my_node.py to my_node.cpython-310.pyc\n'}
+[5.836128] (my_image_processing) StdoutLine: {'line': b'byte-compiling /home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/python3.10/site-packages/my_image_processing/visual_point_cloud.py to visual_point_cloud.cpython-310.pyc\n'}
+[5.837989] (my_image_processing) StdoutLine: {'line': b'running install_data\n'}
+[5.840689] (my_image_processing) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.847005] (my_image_processing) StdoutLine: {'line': b"removing '/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/python3.10/site-packages/my_image_processing-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.848922] (my_image_processing) StdoutLine: {'line': b'Copying ../build/my_image_processing/my_image_processing.egg-info to /home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/python3.10/site-packages/my_image_processing-0.0.0-py3.10.egg-info\n'}
+[5.850414] (-) TimerEvent: {}
+[5.855673] (my_image_processing) StdoutLine: {'line': b'running install_scripts\n'}
+[5.937455] (my_image_processing) StdoutLine: {'line': b'Installing image_node script to /home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/my_image_processing\n'}
+[5.939813] (my_image_processing) StdoutLine: {'line': b"writing list of installed files to '/home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/install.log'\n"}
+[5.950736] (-) TimerEvent: {}
+[6.051964] (-) TimerEvent: {}
+[6.103848] (my_image_processing) CommandEnded: {'returncode': 0}
+[6.152248] (-) TimerEvent: {}
+[6.254192] (-) TimerEvent: {}
+[6.354826] (-) TimerEvent: {}
+[6.456281] (-) TimerEvent: {}
+[6.485876] (my_image_processing) JobEnded: {'identifier': 'my_image_processing', 'rc': 0}
+[6.490132] (-) EventReactorShutdown: {}

@@ -1,1 +1,1 @@
-cv2:cv_bridge:matplotlib.pyplot:mpl_toolkits.mplot3d:numpy:rclpy:sensor_msgs.msg:sensor_msgs.point_cloud2:std_msgs.msg
+bildverarbeitung:cv2:cv_bridge:keyboard:matplotlib.pyplot:mpl_toolkits.mplot3d:numpy:open3d:pandas:rclpy:sensor_msgs.msg:sensor_msgs.point_cloud2:std_msgs.msg

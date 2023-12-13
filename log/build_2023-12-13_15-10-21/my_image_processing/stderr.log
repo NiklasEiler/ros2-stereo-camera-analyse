@@ -1,0 +1,5 @@
+  File "/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/python3.10/site-packages/my_image_processing/bildverarbeitung.py", line 70
+    elif y =< 0 and x =< 0:
+           ^
+SyntaxError: invalid syntax
+

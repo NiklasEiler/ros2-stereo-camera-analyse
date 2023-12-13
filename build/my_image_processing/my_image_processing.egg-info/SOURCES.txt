@@ -9,8 +9,11 @@ setup.py
 ../build/my_image_processing/my_image_processing.egg-info/top_level.txt
 ../build/my_image_processing/my_image_processing.egg-info/zip-safe
 my_image_processing/__init__.py
+my_image_processing/bildverarbeitung.py
 my_image_processing/my_node.py
 my_image_processing/my_point_cloud.py
+my_image_processing/pointcloud2.py
+my_image_processing/visual_point_cloud.py
 resource/my_image_processing
 test/test_copyright.py
 test/test_flake8.py

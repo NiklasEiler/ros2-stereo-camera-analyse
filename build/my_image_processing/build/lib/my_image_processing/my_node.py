@@ -32,19 +32,19 @@ class ImageSubscriber:
         self.right_idx=1
         self.left_idx=1
         self.node = rclpy.create_node('image_subscriber')
-        self.imageright = self.node.create_subscription(
-            Image,
-            '/stereo/right/image_rect',  # topic of image stream
-            self.imageright_callback,
-            10
-        )
-
-        #self.imageleft = self.node.create_subscription(
+        #self.imageright = self.node.create_subscription(
         #    Image,
-        #    '/stereo/left/image_rect',  # topic of image stream
-        #    self.imageleft_callback,
+        #    '/stereo/right/image_rect',  # topic of image stream
+        #    self.imageright_callback,
         #    10
         #)
+
+        self.imageleft = self.node.create_subscription(
+            Image,
+            '/stereo/left/image_rect',  # topic of image stream
+            self.imageleft_callback,
+            10
+        )
 
         #self.pcd_subscriber = self.node.create_subscription(
         #    PointCloud2,    
@@ -74,7 +74,8 @@ class ImageSubscriber:
                 img= bild.Bildverarbeitung(cv_image)
                 #img.binar()
                 img.regionofattraction()
-                #img.aussenkontur()
+                img.aussenkontur()
+                img.sobel_img()
                 #img.Hough_Circles()
                 
                 #cv2.imshow('Image', img.regionofattraction_img )
@@ -96,11 +97,11 @@ class ImageSubscriber:
             
             if 1:
                 img= bild.Bildverarbeitung(cv_image)
-                #img.regionofattraction()
-                #img.aussenkontur()
+                img.regionofattraction()
+                img.aussenkontur()
                 #img.Hough_Circles()
                 
-                #cv2.imshow('Image', img.countur_img)
+                cv2.imshow('Image', img.countur_img)
                 if cv2.waitKey(1)== 50:                          
                     print('save left')
                     img.speichern('~/Pictures', 'left', self.left_idx)

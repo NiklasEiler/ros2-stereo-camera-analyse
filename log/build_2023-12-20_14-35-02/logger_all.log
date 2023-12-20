@@ -1,0 +1,141 @@
+[29.248s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[29.248s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb2787100>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb2a55e70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb2a55e70>>)
+[31.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[31.692s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[31.692s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[31.692s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[31.693s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[31.693s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[31.695s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/niklas/ros2-stereo-camera-analyse'
+[31.696s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[31.697s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[31.698s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[31.698s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[31.699s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[31.699s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[31.700s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[31.701s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[31.701s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[31.855s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[31.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[31.856s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[31.857s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[31.858s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[31.867s] Level 1:colcon.colcon_core.package_identification:_identify(bilder) by extensions ['ignore', 'ignore_ament_install']
+[31.868s] Level 1:colcon.colcon_core.package_identification:_identify(bilder) by extension 'ignore'
+[31.870s] Level 1:colcon.colcon_core.package_identification:_identify(bilder) by extension 'ignore_ament_install'
+[31.870s] Level 1:colcon.colcon_core.package_identification:_identify(bilder) by extensions ['colcon_pkg']
+[31.871s] Level 1:colcon.colcon_core.package_identification:_identify(bilder) by extension 'colcon_pkg'
+[31.872s] Level 1:colcon.colcon_core.package_identification:_identify(bilder) by extensions ['colcon_meta']
+[31.873s] Level 1:colcon.colcon_core.package_identification:_identify(bilder) by extension 'colcon_meta'
+[31.873s] Level 1:colcon.colcon_core.package_identification:_identify(bilder) by extensions ['ros']
+[31.874s] Level 1:colcon.colcon_core.package_identification:_identify(bilder) by extension 'ros'
+[31.875s] Level 1:colcon.colcon_core.package_identification:_identify(bilder) by extensions ['cmake', 'python']
+[31.875s] Level 1:colcon.colcon_core.package_identification:_identify(bilder) by extension 'cmake'
+[31.875s] Level 1:colcon.colcon_core.package_identification:_identify(bilder) by extension 'python'
+[31.876s] Level 1:colcon.colcon_core.package_identification:_identify(bilder) by extensions ['python_setup_py']
+[31.876s] Level 1:colcon.colcon_core.package_identification:_identify(bilder) by extension 'python_setup_py'
+[31.877s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[31.878s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[31.879s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[31.884s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[31.884s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[31.885s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[31.888s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[31.888s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[31.889s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[31.896s] Level 1:colcon.colcon_core.package_identification:_identify(my_image_processing) by extensions ['ignore', 'ignore_ament_install']
+[31.897s] Level 1:colcon.colcon_core.package_identification:_identify(my_image_processing) by extension 'ignore'
+[31.898s] Level 1:colcon.colcon_core.package_identification:_identify(my_image_processing) by extension 'ignore_ament_install'
+[31.899s] Level 1:colcon.colcon_core.package_identification:_identify(my_image_processing) by extensions ['colcon_pkg']
+[31.905s] Level 1:colcon.colcon_core.package_identification:_identify(my_image_processing) by extension 'colcon_pkg'
+[31.906s] Level 1:colcon.colcon_core.package_identification:_identify(my_image_processing) by extensions ['colcon_meta']
+[31.908s] Level 1:colcon.colcon_core.package_identification:_identify(my_image_processing) by extension 'colcon_meta'
+[31.909s] Level 1:colcon.colcon_core.package_identification:_identify(my_image_processing) by extensions ['ros']
+[31.909s] Level 1:colcon.colcon_core.package_identification:_identify(my_image_processing) by extension 'ros'
+[31.940s] DEBUG:colcon.colcon_core.package_identification:Package 'my_image_processing' with type 'ros.ament_python' and name 'my_image_processing'
+[31.941s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[31.942s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[31.943s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[31.944s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[31.944s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[31.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[31.945s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[31.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[31.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[31.952s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[31.953s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[31.953s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[31.954s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[31.954s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[31.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[31.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[31.958s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[31.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[31.959s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[33.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[33.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[33.778s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/niklas/ros2-stereo-camera-analyse/install
+[34.049s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[34.057s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[35.102s] Level 5:colcon.colcon_core.verb:set package 'my_image_processing' build argument 'cmake_args' from command line to 'None'
+[35.104s] Level 5:colcon.colcon_core.verb:set package 'my_image_processing' build argument 'cmake_target' from command line to 'None'
+[35.104s] Level 5:colcon.colcon_core.verb:set package 'my_image_processing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[35.106s] Level 5:colcon.colcon_core.verb:set package 'my_image_processing' build argument 'cmake_clean_cache' from command line to 'False'
+[35.107s] Level 5:colcon.colcon_core.verb:set package 'my_image_processing' build argument 'cmake_clean_first' from command line to 'False'
+[35.108s] Level 5:colcon.colcon_core.verb:set package 'my_image_processing' build argument 'cmake_force_configure' from command line to 'False'
+[35.109s] Level 5:colcon.colcon_core.verb:set package 'my_image_processing' build argument 'ament_cmake_args' from command line to 'None'
+[35.109s] Level 5:colcon.colcon_core.verb:set package 'my_image_processing' build argument 'catkin_cmake_args' from command line to 'None'
+[35.110s] Level 5:colcon.colcon_core.verb:set package 'my_image_processing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[35.111s] DEBUG:colcon.colcon_core.verb:Building package 'my_image_processing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/niklas/ros2-stereo-camera-analyse/build/my_image_processing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing', 'merge_install': False, 'path': '/home/niklas/ros2-stereo-camera-analyse/my_image_processing', 'symlink_install': False, 'test_result_base': None}
+[35.289s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[35.508s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[35.511s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/niklas/ros2-stereo-camera-analyse/my_image_processing' with build type 'ament_python'
+[35.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_image_processing', 'ament_prefix_path')
+[35.927s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[35.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/share/my_image_processing/hook/ament_prefix_path.ps1'
+[35.937s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/share/my_image_processing/hook/ament_prefix_path.dsv'
+[35.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/share/my_image_processing/hook/ament_prefix_path.sh'
+[36.265s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[36.266s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[40.827s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/niklas/ros2-stereo-camera-analyse/my_image_processing'
+[41.155s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[41.155s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[46.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/niklas/ros2-stereo-camera-analyse/my_image_processing': PYTHONPATH=/home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/prefix_override:/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_image_processing build --build-base /home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/build install --record /home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/install.log --single-version-externally-managed
+[51.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/niklas/ros2-stereo-camera-analyse/my_image_processing' returned '0': PYTHONPATH=/home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/prefix_override:/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/my_image_processing build --build-base /home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/build install --record /home/niklas/ros2-stereo-camera-analyse/build/my_image_processing/install.log --single-version-externally-managed
+[51.673s] Level 1:colcon.colcon_core.environment:checking '/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing' for CMake module files
+[51.681s] Level 1:colcon.colcon_core.environment:checking '/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing' for CMake config files
+[51.691s] Level 1:colcon.colcon_core.environment:checking '/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib'
+[51.694s] Level 1:colcon.colcon_core.environment:checking '/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/bin'
+[51.695s] Level 1:colcon.colcon_core.environment:checking '/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/pkgconfig/my_image_processing.pc'
+[51.697s] Level 1:colcon.colcon_core.environment:checking '/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/lib/python3.10/site-packages'
+[51.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_image_processing', 'pythonpath')
+[51.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/share/my_image_processing/hook/pythonpath.ps1'
+[51.882s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/share/my_image_processing/hook/pythonpath.dsv'
+[51.887s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/share/my_image_processing/hook/pythonpath.sh'
+[51.893s] Level 1:colcon.colcon_core.environment:checking '/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/bin'
+[51.894s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_image_processing)
+[52.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/share/my_image_processing/package.ps1'
+[52.112s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/share/my_image_processing/package.dsv'
+[52.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/share/my_image_processing/package.sh'
+[52.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/share/my_image_processing/package.bash'
+[52.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/share/my_image_processing/package.zsh'
+[52.143s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/niklas/ros2-stereo-camera-analyse/install/my_image_processing/share/colcon-core/packages/my_image_processing)
+[52.145s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[52.148s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[52.149s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[52.149s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[52.363s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[52.364s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[52.364s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[52.478s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[52.862s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/niklas/ros2-stereo-camera-analyse/install/local_setup.ps1'
+[52.876s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/niklas/ros2-stereo-camera-analyse/install/_local_setup_util_ps1.py'
+[52.888s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/niklas/ros2-stereo-camera-analyse/install/setup.ps1'
+[53.213s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/niklas/ros2-stereo-camera-analyse/install/local_setup.sh'
+[53.219s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/niklas/ros2-stereo-camera-analyse/install/_local_setup_util_sh.py'
+[53.236s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/niklas/ros2-stereo-camera-analyse/install/setup.sh'
+[53.618s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/niklas/ros2-stereo-camera-analyse/install/local_setup.bash'
+[53.629s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/niklas/ros2-stereo-camera-analyse/install/setup.bash'
+[54.069s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/niklas/ros2-stereo-camera-analyse/install/local_setup.zsh'
+[54.076s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/niklas/ros2-stereo-camera-analyse/install/setup.zsh'

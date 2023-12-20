@@ -32,12 +32,12 @@ class ImageSubscriber:
         self.right_idx=1
         self.left_idx=1
         self.node = rclpy.create_node('image_subscriber')
-        #self.imageright = self.node.create_subscription(
-        #    Image,
-        #    '/stereo/right/image_rect',  # topic of image stream
-        #    self.imageright_callback,
-        #    10
-        #)
+        self.imageright = self.node.create_subscription(
+            Image,
+            '/stereo/right/image_rect',  # topic of image stream
+            self.imageright_callback,
+            10
+        )
 
         self.imageleft = self.node.create_subscription(
             Image,
@@ -79,7 +79,7 @@ class ImageSubscriber:
                 #img.Hough_Circles()
                 
                 #cv2.imshow('Image', img.regionofattraction_img )
-                cv2.imshow('Image', img.imgregion)
+                #cv2.imshow('Image', img.imgregion)
                 if cv2.waitKey(1)== 49:                          
                     print('save right')
                     img.speichern('~/Pictures', 'right', self.right_idx)

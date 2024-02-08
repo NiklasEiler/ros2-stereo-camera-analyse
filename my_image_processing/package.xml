@@ -10,16 +10,13 @@
   <depend>rclpy</depend>
   <depend>cv2</depend>
   <depend>cv_bridge</depend>
-  <depend>sensor_msgs.msg</depend>
-  <depend>std_msgs.msg</depend>
-  <depend>sensor_msgs.point_cloud2</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
   <depend>numpy</depend>
   <depend>pandas</depend>
   <depend>bildverarbeitung</depend>
-  <depend>keyboard</depend>
-  <depend>open3d</depend>
-  <depend>matplotlib.pyplot</depend>
-  <depend>mpl_toolkits.mplot3d</depend> 
+
+
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
